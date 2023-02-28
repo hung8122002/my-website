@@ -1,0 +1,25 @@
+.m-IconBtn {
+    width: 24px;
+    height: 24px;
+    padding: 2px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: calc((100% - 24px)/2);
+    right: 0;
+    margin: 0 7px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.m-IconBtn:focus-visible {
+    outline: 1px solid #ddd;
+}
+
+.m-IconBtn i {
+    color: #9E9E9E;
+    font-size: 20px;
+}

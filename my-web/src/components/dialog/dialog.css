@@ -1,0 +1,75 @@
+.m-dialog-box {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(97, 97, 97, 0.9);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 28px 142px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 4;
+    display: flex;
+}
+
+.m-dialog-item {
+    border-radius: 4px;
+    width: 400px;
+    height: fit-content;
+    background-color: #FFFFFF;
+    margin: 12px 0;
+    box-shadow: 0 4px 16px rgba(23,27,42,0.078);
+    position: relative;
+    padding: 22px 24px;
+}
+
+.m-dialig-btn-close {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+    line-height: 100%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.m-dialog-header {
+    height: 24px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #1F1F1F;
+}
+
+.m-dialog-body {
+    margin: 24px 0;
+    font-size: 14px;
+    color: #1F1F1F;
+}
+
+.m-dialog-footer {
+    width: fit-content;
+    margin-left: auto;
+}
+
+.white {
+    background-color: #FFFFFF;
+    color: #1F1F1F;
+    margin-right: 8px;
+    border: 1px solid #1F1F1F;
+}
+
+.white:hover {
+    background-color: #EEEEEE;
+}
+
+
+

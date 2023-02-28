@@ -1,0 +1,51 @@
+.m-toast-box {
+    /* position: fixed;
+    bottom: 0;
+    right: 0; */
+    width: fit-content;
+}
+
+.m-toast-item {
+    height: 48px;
+    margin: 10px;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    box-sizing: border-box;
+    width: fit-content;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding-right: 38px;
+    background: #fff;
+    z-index: 4;
+}
+
+.m-toast-close,
+.m-toast-icon {
+    display: flex;
+    margin: 0 16px;
+}
+
+.m-toast-close {
+    cursor: pointer;
+}
+
+.m-toast-icon-red {
+    color: #e68585;
+}
+
+.m-toast-icon-yellow {
+    color: #fece5b;
+}
+
+.m-toast-icon-green {
+    color: #44fcbc;
+}
+
+.m-toast-icon-blue {
+    color: #5ea6f8;
+}

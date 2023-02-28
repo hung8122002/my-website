@@ -1,0 +1,11 @@
+@import url(./header.css);
+@import url(./menu.css);
+@import url(./content/content.css);
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #EEEEEE;
+}

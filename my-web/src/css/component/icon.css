@@ -1,0 +1,35 @@
+.m-Icon-search {
+    background-image: url(../../assets/icon/search.png);
+}
+
+.m-Input-Icon {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.m-Icon-16 {
+    background-size: 20px;
+}
+
+.m-Icon-60 {
+    background-size: 60px;
+}
+
+.m-Icon-warning {
+    background-image: url(../../assets/icon/warning.png);
+}
+
+.m-Icon-change {
+    background-image: url(../../assets/icon/change.png);
+}
+
+.m-Icon-excel {
+    background-image: url(../../assets/icon/excel.png);
+}
+
+.m-Icon-logo {
+    background-position: 8px;
+    background-size: 100px;
+    background-image: url(../../assets/img/Logo_Module_TiengViet_White.66947422.svg);
+    background-repeat: no-repeat;
+}

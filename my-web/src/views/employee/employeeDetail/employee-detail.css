@@ -1,0 +1,170 @@
+.m-dialog-box {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(97, 97, 97, 0.5);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 28px 142px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 4;
+    display: flex;
+}
+
+.m-dialog-info-item {
+    border-radius: 4px;
+    width: 90vw;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 16px rgba(23,27,42,0.078);
+    position: relative;
+    padding: 22px 24px;
+    font-size: 13px;
+}
+
+.m-dialog-info-item input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin: 0;
+    margin-right: 8px;
+} 
+
+.m-dialog-info-item input[type="radio"]+input[type="radio"] {
+    margin-left: 16px;
+}
+
+.m-dialog-info-item label {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+.m-dialog-info-header {
+    display: flex;
+    align-items: end;
+}
+
+.m-dialog-info-header .text {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.m-dialog-info-header input {
+    width: 16px;
+    height: 16px;
+}
+
+.m-dialog-info-header .option {
+    display: flex;
+    column-gap: 8px;
+    margin-left: 8px;
+}
+
+.option+.option {
+    margin-left: 24px;
+}
+
+/* body */
+.width-full {
+    width: 100%;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    font-style: italic;
+    color: #9E9E9E;
+}
+
+.uppercase:focus {
+    font-style: normal;
+}
+
+.red {
+    color: #E60000;
+}
+
+.bgc-red {
+    border: 1px solid #E60000;
+}
+
+.start {
+    justify-content: start !important;
+    column-gap: 8px !important;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 24px;
+    margin-top: 12px;
+}
+
+.row-right,
+.row-left {
+    display: flex;
+    column-gap: 8px;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.DOB {
+    position: relative;
+}
+
+.gender {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.m-body-bottom {
+    margin-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #bbb;
+}
+
+/* footer */
+.bg-clean {
+    background: transparent !important;
+    border: 1px solid #bbb;
+    color: #000;
+    margin-right: 8px;
+}
+
+.m-dialog-info-footer {
+    display: flex;
+    margin-top: 22px;
+    justify-content: space-between;
+}
+
+/* icon */
+.m-dialog-info-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: flex;
+}
+
+.dialog-icon {
+    width: 32px;
+    height: 32px;
+    font-size: 24px;
+    line-height: 36px;
+    padding: 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: #757575;
+}

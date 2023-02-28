@@ -1,0 +1,33 @@
+.slider {
+    width: 16px;
+    height: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #424242;
+    border-radius: 2px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.checked {
+    height: 100%;
+}
+
+input[type="checkbox"] {
+    height: 0;
+    width: 0;
+    opacity: 0;
+    position: absolute;
+    visibility: hidden;
+}
+
+input:checked ~ .checked {
+    background-image: url(../../assets/icon/tick.png);
+    background-color: #424242;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: center;
+}
