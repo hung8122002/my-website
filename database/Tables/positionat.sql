@@ -1,0 +1,11 @@
+﻿CREATE TABLE positionat (
+  PositionId CHAR(36) NOT NULL DEFAULT '' COMMENT 'Id vị trí',
+  PositionName VARCHAR(255) NOT NULL DEFAULT '',
+  PRIMARY KEY (PositionId)
+)
+ENGINE = INNODB,
+AVG_ROW_LENGTH = 1638,
+CHARACTER SET utf8mb4,
+COLLATE utf8mb4_0900_ai_ci,
+COMMENT = 'Vị trí',
+ROW_FORMAT = DYNAMIC;
